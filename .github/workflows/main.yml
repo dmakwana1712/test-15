@@ -30,4 +30,4 @@ jobs:
   
       # Runs a set of commands using the runners shell
       - name: Odoo
-        run:  ./home/st14121702/projects/source/server15/odoo-bin -c /home/st14121702/projects/source/server15/conf/odoo15.conf
+        run:  python3.9 /home/st14121702/projects/source/server15/odoo-bin -c /home/st14121702/projects/source/server15/conf/odoo15.conf
