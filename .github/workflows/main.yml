@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Virtual Env
-        run: source /home/st14121702/projects/source/server15/odoo/odoo15venv/bin/activate,
+        run: source /home/st14121702/projects/source/server15/odoo/odoo15venv/bin/activate
 
       # Runs a set of commands using the runners shell
       - name: Odoo
