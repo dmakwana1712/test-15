@@ -28,7 +28,7 @@ jobs:
       - name: Virtual Env
         run: source /home/st14121702/projects/source/server15/odoo/odoo15venv/bin/activate
       - name: Requirements
-        run: python3.9 -m pip install --upgrade setuptools
+        run: python3.9 -m pip install psutil
       - name: Req
         run: python3.9 -m pip install -r requirements.txt
   
