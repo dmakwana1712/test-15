@@ -28,9 +28,9 @@ jobs:
       - name: Virtual Env
         run: source /home/st14121702/Projects/Source_code/Odoo_normal/all_versions/server15/odoo/odoo15venv/bin/activate
       - name: Requirements
-        run: python3.9 -m pip install --upgrade urllib3
+        run: python3.9 -m pip install --upgrade pip
      
   
       # Runs a set of commands using the runners shell
       - name: Odoo
-        run:  python3.9 /home/st14121702/Projects/Source_code/Odoo_normal/all_versions/server15/odoo-bin -c /home/st14121702/projects/source/server15/conf/odoo15.conf
+        run:  python3.9 /home/st14121702/Projects/Source_code/Odoo_normal/all_versions/server15/odoo-bin -c /home/st14121702/Projects/Source_code/Odoo_normal/all_versions/server15/conf/odoo15.conf
